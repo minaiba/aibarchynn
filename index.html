@@ -8,6 +8,22 @@
 </head>
 <body>
 </body>
+<header>
+  <nav>
+    <ul>
+      <li><a href="#about">Обо мне</a></li>
+      <li><a href="#projects">Проекты</a></li>
+      <li><a href="#contact">Контакты</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Раздел "Обо мне" -->
+<section id="about">
+  <h1>Привет, я - Aibarchyn</h1>
+  <p>Я веб-разработчик, создающий красивые и функциональные сайты.</p>
+  <p>Ниже вы сможете узнать про меня подробно</p>
+</section>
 <div class="collage-container">
     <div class="grid-overlay">
       <!-- Top right - Ballon d'Or photo -->
@@ -40,5 +56,40 @@
       </div>
     </div>
   </div>
+<!-- Раздел "Проекты" -->
+<section id="projects">
+  <h2>Мои проекты</h2>
+
+  <div class="project-card">
+    <h3>Проект 1</h3>
+    <p>Описание проекта 1.</p>
+  </div>
+  <div class="project-card">
+    <h3>Проект 2</h3>
+    <p>Описание проекта 2.</p>
+  </div>
+    <textarea id="message" placeholder="Мои проекты" required></textarea>
+</section>
+
+<!-- Раздел "Контакты" -->
+<section id="contact">
+  <h2>Связаться со мной</h2>
+  <form id="contact-form">
+    <input type="text" id="name" placeholder="Ваше имя" required>
+    <input type="email" id="email" placeholder="Ваш email" required>
+    <textarea id="message" placeholder="Ваше сообщение" required></textarea>
+    <button type="submit" class="button">Отправить</button>
+  </form>
+  <div id="response"></div>
+</section>
+
+
+
+<footer>
+  <p>&copy; 2025 Aiba</p>
+</footer>
+
+
+
 <script src="./app.js"></script>
 </html>
